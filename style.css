@@ -1,0 +1,54 @@
+/* {
+   font-family: [Outfit](https://fonts.google.com/specimen/Outfit); 
+} */
+body {
+  background: url(favicon-32x32.png);
+  background-position: center;
+  background-size: cover;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+#main {
+  background-color: hsl(212, 45%, 89%);
+  width: 90%;
+  height: 80%;
+  margin: 20% auto;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 10px gray;
+}
+
+#contain {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 16px;
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+
+#barcode {
+  border-radius: 12px;
+  width: 92%;
+  height: 45%;
+  top: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#use {
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+  margin: 6px;
+}
+
+#instruct {
+  color: hsl(212, 45%, 89%);
+  font-weight: normal;
+}
